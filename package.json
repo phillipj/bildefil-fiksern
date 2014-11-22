@@ -1,0 +1,19 @@
+{
+  "name": "bildefil-fiksern",
+  "version": "1.0.0",
+  "description": "Trivial image renamer, suffixing all filenames with exif created date",
+  "main": "index.js",
+  "author": "Phillip Johnsen",
+  "license": "MIT",
+  "repository": "https://github.com/phillipj/bildefil-fiksern",
+  "dependencies": {
+    "async": "^0.9.0",
+    "date-util": "^1.2.0",
+    "exif": "^0.4.0",
+    "verror": "^1.6.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "bildefil-fiksern": "bin/bildefil-fiksern.js"
+  }
+}
