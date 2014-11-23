@@ -1,7 +1,7 @@
 {
   "name": "bildefil-fiksern",
   "version": "1.0.0",
-  "description": "Trivial image renamer, suffixing all filenames with exif created date",
+  "description": "Bittelite program for å endre filnavn på bilder til å inneholde datoen de ble tatt",
   "main": "index.js",
   "author": "Phillip Johnsen",
   "license": "MIT",
