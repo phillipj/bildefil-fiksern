@@ -5,7 +5,7 @@ var async = require('async');
 
 var isImage = require('../lib/is-image');
 var hasNotDate = require('../lib/has-not-date');
-var createFromAndToFileNames = require('../lib/from-to-filenames')
+var createFromAndToFileNames = require('../lib/from-to-filenames');
 
 function findAllImageFiles(cb) {
 	return fs.readdir(process.cwd(), function(err, files){
@@ -42,7 +42,7 @@ function renameFiles(results, cb) {
 function displayStatus(err) {
 	if (err) {
 		console.error('HUFFDA! Skjedde visst no feil her...');
-		return console.error('Nerdeinfo ut teknisk årsak:', err.stack);
+		return console.error('Nerdeinfo, teknisk årsak:', err.stack);
 	}
 
 	console.log('\n\n Ferdig!! :)');

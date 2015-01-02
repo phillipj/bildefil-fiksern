@@ -9,11 +9,22 @@
   "dependencies": {
     "async": "^0.9.0",
     "date-util": "^1.2.0",
-    "exif": "^0.4.0",
+    "exif": "git://github.com/markwainwright/node-exif#183cbbbd578dac863c5290163e4c23d977ccb48d",
+    "moment": "^2.8.4",
     "verror": "^1.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
   },
   "preferGlobal": true,
   "bin": {
     "bildefil-fiksern": "bin/bildefil-fiksern.js"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
   }
 }
