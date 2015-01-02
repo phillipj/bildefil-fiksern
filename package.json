@@ -1,6 +1,6 @@
 {
   "name": "bildefil-fiksern",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Bittelite program for å endre filnavn på bilder til å inneholde datoen de ble tatt",
   "main": "index.js",
   "author": "Phillip Johnsen",
